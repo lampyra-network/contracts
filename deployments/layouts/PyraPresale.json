@@ -1,0 +1,140 @@
+[
+  {
+    "label": "admin",
+    "slot": "0",
+    "offset": 0,
+    "type": "t_contract(IAccessControl)647"
+  },
+  {
+    "label": "token",
+    "slot": "1",
+    "offset": 0,
+    "type": "t_contract(IERC20)1150"
+  },
+  {
+    "label": "usdc",
+    "slot": "2",
+    "offset": 0,
+    "type": "t_contract(IERC20)1150"
+  },
+  {
+    "label": "currentStage",
+    "slot": "2",
+    "offset": 20,
+    "type": "t_uint8"
+  },
+  {
+    "label": "isActive",
+    "slot": "2",
+    "offset": 21,
+    "type": "t_bool"
+  },
+  {
+    "label": "finalized",
+    "slot": "2",
+    "offset": 22,
+    "type": "t_bool"
+  },
+  {
+    "label": "parametersFrozen",
+    "slot": "2",
+    "offset": 23,
+    "type": "t_bool"
+  },
+  {
+    "label": "startTime",
+    "slot": "3",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "usdcRaised",
+    "slot": "4",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "outstandingObligations",
+    "slot": "5",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "_tokenPool",
+    "slot": "6",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "_stageSold",
+    "slot": "7",
+    "offset": 0,
+    "type": "t_array(t_uint256)5_storage"
+  },
+  {
+    "label": "usdcWithdrawCap",
+    "slot": "12",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "usdcWithdrawWindow",
+    "slot": "13",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "_usdcWithdrawWindowStart",
+    "slot": "14",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "_usdcWithdrawWindowUsed",
+    "slot": "15",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "_stageStartPrices",
+    "slot": "16",
+    "offset": 0,
+    "type": "t_array(t_uint256)5_storage"
+  },
+  {
+    "label": "_stageEndPrices",
+    "slot": "21",
+    "offset": 0,
+    "type": "t_array(t_uint256)5_storage"
+  },
+  {
+    "label": "maxPerWalletPerStage",
+    "slot": "26",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "immediateReleasePct",
+    "slot": "27",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "vestingDuration",
+    "slot": "28",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "_purchases",
+    "slot": "29",
+    "offset": 0,
+    "type": "t_mapping(t_address,t_struct(UserPurchase)5444_storage)"
+  },
+  {
+    "label": "__gap",
+    "slot": "30",
+    "offset": 0,
+    "type": "t_array(t_uint256)50_storage"
+  }
+]

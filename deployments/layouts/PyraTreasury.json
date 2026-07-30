@@ -1,0 +1,62 @@
+[
+  {
+    "label": "admin",
+    "slot": "0",
+    "offset": 0,
+    "type": "t_contract(IAccessControl)647"
+  },
+  {
+    "label": "token",
+    "slot": "1",
+    "offset": 0,
+    "type": "t_contract(IERC20)1150"
+  },
+  {
+    "label": "initialized",
+    "slot": "1",
+    "offset": 20,
+    "type": "t_bool"
+  },
+  {
+    "label": "supplyLocked",
+    "slot": "1",
+    "offset": 21,
+    "type": "t_bool"
+  },
+  {
+    "label": "adminWindow",
+    "slot": "2",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "vestingEscrow",
+    "slot": "3",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "_pools",
+    "slot": "4",
+    "offset": 0,
+    "type": "t_mapping(t_uint8,t_uint256)"
+  },
+  {
+    "label": "_caps",
+    "slot": "5",
+    "offset": 0,
+    "type": "t_mapping(t_uint8,t_struct(CapState)2205_storage)"
+  },
+  {
+    "label": "_vesting",
+    "slot": "6",
+    "offset": 0,
+    "type": "t_mapping(t_address,t_struct(VestingSchedule)2218_storage)"
+  },
+  {
+    "label": "__gap",
+    "slot": "7",
+    "offset": 0,
+    "type": "t_array(t_uint256)50_storage"
+  }
+]

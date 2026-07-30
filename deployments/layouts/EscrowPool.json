@@ -1,0 +1,140 @@
+[
+  {
+    "label": "admin",
+    "slot": "0",
+    "offset": 0,
+    "type": "t_contract(IAccessControl)647"
+  },
+  {
+    "label": "token",
+    "slot": "1",
+    "offset": 0,
+    "type": "t_contract(IERC20)1150"
+  },
+  {
+    "label": "pool",
+    "slot": "2",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "feePool",
+    "slot": "3",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "clientBalance",
+    "slot": "4",
+    "offset": 0,
+    "type": "t_mapping(t_address,t_uint256)"
+  },
+  {
+    "label": "hasDeposited",
+    "slot": "5",
+    "offset": 0,
+    "type": "t_mapping(t_address,t_bool)"
+  },
+  {
+    "label": "settledCycles",
+    "slot": "6",
+    "offset": 0,
+    "type": "t_mapping(t_uint64,t_bool)"
+  },
+  {
+    "label": "currentCycle",
+    "slot": "7",
+    "offset": 0,
+    "type": "t_uint64"
+  },
+  {
+    "label": "lastSettlement",
+    "slot": "8",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "totalDeposited",
+    "slot": "9",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "totalWithdrawn",
+    "slot": "10",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "totalPaidWorkers",
+    "slot": "11",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "totalFeesCollected",
+    "slot": "12",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "platformFeeBps",
+    "slot": "13",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "feeCap",
+    "slot": "14",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "feeWindow",
+    "slot": "15",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "feeWindowStart",
+    "slot": "16",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "feeWindowUsed",
+    "slot": "17",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "payoutCap",
+    "slot": "18",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "payoutWindow",
+    "slot": "19",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "payoutWindowStart",
+    "slot": "20",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "payoutWindowUsed",
+    "slot": "21",
+    "offset": 0,
+    "type": "t_uint256"
+  },
+  {
+    "label": "__gap",
+    "slot": "22",
+    "offset": 0,
+    "type": "t_array(t_uint256)50_storage"
+  }
+]
